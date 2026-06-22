@@ -1057,7 +1057,7 @@ p.a8O()
 return p},
 aWx(a){return new A.aal($.am,a)},
 aGo(){var s,r,q,p,o=v.G,n=o.window,m=A.aW7(n.navigator)
-if(m==null||m.length===0)return B.qM
+if(m==null||m.length===0)return B.qL
 s=A.b([],t.ss)
 for(n=m.length,r=0;r<m.length;m.length===n||(0,A.I)(m),++r){q=m[r]
 p=new o.Intl.Locale(q)
@@ -7756,8 +7756,8 @@ s=B.d.bW((a-2)/1,0,13)
 r=B.i.bW(B.d.hb(s),0,12)
 q=s-r
 p=1-q
-o=B.qQ[r]
-n=B.qQ[r+1]
+o=B.qP[r]
+n=B.qP[r+1]
 return new A.ap(p*o.a+q*n.a,p*o.b+q*n.b)},
 b0v(a){var s,r,q,p,o,n,m
 if(a>5){s=a-5
@@ -11925,8 +11925,8 @@ break
 case 4:s=l.a
 s===$&&A.a()
 s=A.bF(s,200)
-r=A.bF(A.a97(l,B.qN,B.NP),24)
-q=A.bF(A.a97(l,B.qN,B.Oy),32)
+r=A.bF(A.a97(l,B.qM,B.NP),24)
+q=A.bF(A.a97(l,B.qM,B.Oy),32)
 p=A.bF(l.a,10)
 o=A.bF(l.a,12)
 l.d===$&&A.a()
@@ -11936,8 +11936,8 @@ break
 case 5:s=l.a
 s===$&&A.a()
 s=A.bF(A.Cl(s+240),40)
-r=A.bF(A.a97(l,B.qP,B.Pf),24)
-q=A.bF(A.a97(l,B.qP,B.Pg),32)
+r=A.bF(A.a97(l,B.qO,B.Pf),24)
+q=A.bF(A.a97(l,B.qO,B.Pg),32)
 p=A.bF(l.a+15,8)
 o=A.bF(l.a+15,12)
 l.d===$&&A.a()
@@ -12396,7 +12396,7 @@ aL3(a,b,c){if(b!=null&&!b.j(0,B.z))return A.aKw(b.bf(A.aWs(c)),a)
 return a},
 aWs(a){var s,r,q,p,o,n
 if(a<0)return 0
-for(s=0;r=B.qO[s],q=r.a,a>=q;){if(a===q||s+1===6)return r.b;++s}p=B.qO[s-1]
+for(s=0;r=B.qN[s],q=r.a,a>=q;){if(a===q||s+1===6)return r.b;++s}p=B.qN[s-1]
 o=p.a
 n=p.b
 return n+(a-o)/(q-o)*(r.b-n)},
@@ -28878,9 +28878,9 @@ wd:function wd(a){this.a=a},
 R6:function R6(){},
 mV:function mV(){},
 aN2(){var s,r,q,p,o,n,m=null,l=A.b5B()
-if(l==null)return B.qK
+if(l==null)return B.qQ
 s=A.b([],t.yW)
-for(r=t.N,q=0;q<6;++q){p=B.qK[q]
+for(r=t.N,q=0;q<6;++q){p=B.qQ[q]
 o=p.c
 n=l.at
 n===$&&A.a()
@@ -52175,7 +52175,7 @@ n=o.e
 o=o.cx
 r=q.gaib()
 q.a.toString
-return new A.FZ(p,p,p,new A.awt(),p,p,p,p,p,n,B.R7,p,p,p,B.ON,q.gaik(),o,p,B.a0f,s,p,r,p,p,B.qM,!1,!1,p,p,p,new A.qD(q,t.bT))},
+return new A.FZ(p,p,p,new A.awt(),p,p,p,p,p,n,B.R7,p,p,p,B.ON,q.gaik(),o,p,B.a0f,s,p,r,p,p,B.qL,!1,!1,p,p,p,new A.qD(q,t.bT))},
 B(a){var s,r=this.aa3(a)
 this.a.toString
 s=this.d
@@ -97612,9 +97612,9 @@ $0(){return this.a.d.$1(this.b)},
 $S:0}
 A.Rm.prototype={
 B(a){var s,r,q,p,o,n=t.p,m=A.b([],n)
-for(s=t.O,r=this.c,q=0;q<3;++q){p=B.qL[q]
+for(s=t.O,r=this.c,q=0;q<3;++q){p=B.qK[q]
 o=A.b([new A.p6(p,r===p,new A.ajE(this,p),null,new A.be("registration-gender-"+p,s))],n)
-if(p!==B.b.gac(B.qL))o.push(B.cq)
+if(p!==B.b.gac(B.qK))o.push(B.cq)
 B.b.O(m,o)}return new A.n9("Gi\u1edbi t\xednh c\u1ee7a b\xe9?","Th\xf4ng tin n\xe0y gi\xfap h\u1ed3 s\u01a1 c\u1ee7a b\xe9 \u0111\u1ea7y \u0111\u1ee7 h\u01a1n.",u.d,A.bD(m,B.t,B.n,B.o),null)}}
 A.ajE.prototype={
 $0(){return this.a.d.$1(this.b)},
@@ -104206,19 +104206,6 @@ B.O0=s([6.43023796,2.98020421],t.n)
 B.qJ=s([B.O_,B.MZ,B.OZ,B.P0,B.NN,B.NU,B.Oo,B.O4,B.Og,B.NQ,B.O0],t.zg)
 B.NM=s([B.k6,B.k7],A.az("G<zI>"))
 B.NP=s([18,15,10,12,15,18,15,12,12],t.n)
-B.H_=new A.B(1,0.9098039215686274,0.8431372549019608,1,B.e)
-B.UO=new A.j0("M\xe8o",B.H_,"avatars/cat.png","assets/images/avatars/cat.webp",null)
-B.I0=new A.B(1,1,0.9411764705882353,0.6823529411764706,B.e)
-B.UP=new A.j0("Ch\xf3",B.I0,"avatars/dog.png","assets/images/avatars/dog.webp",null)
-B.Hk=new A.B(1,0.8470588235294118,0.9450980392156862,1,B.e)
-B.UM=new A.j0("Voi",B.Hk,"avatars/elephant.png","assets/images/avatars/elephant.webp",null)
-B.HM=new A.B(1,1,0.8666666666666667,0.9215686274509803,B.e)
-B.UQ=new A.j0("Th\u1ecf",B.HM,"avatars/rabbit.png","assets/images/avatars/rabbit.webp",null)
-B.H0=new A.B(1,0.8509803921568627,0.9686274509803922,0.9098039215686274,B.e)
-B.UN=new A.j0("G\u1ea5u",B.H0,"avatars/bear.png","assets/images/avatars/bear.webp",null)
-B.Ic=new A.B(1,1,0.8431372549019608,0.6823529411764706,B.e)
-B.UL=new A.j0("C\xe1o",B.Ic,"avatars/fox.png","assets/images/avatars/fox.webp",null)
-B.qK=s([B.UO,B.UP,B.UM,B.UQ,B.UN,B.UL],t.yW)
 B.RO=new A.h(0,16)
 B.EY=new A.bP(0,B.a1,B.f8,B.RO,34)
 B.NS=s([B.EY],t.V)
@@ -104233,7 +104220,7 @@ B.bF=new A.lk(0,"label")
 B.be=new A.lk(1,"avatar")
 B.cu=new A.lk(2,"deleteIcon")
 B.NW=s([B.bF,B.be,B.cu],A.az("G<lk>"))
-B.qL=s(["Nam","N\u1eef","Kh\xf4ng mu\u1ed1n tr\u1ea3 l\u1eddi"],t.s)
+B.qK=s(["Nam","N\u1eef","Kh\xf4ng mu\u1ed1n tr\u1ea3 l\u1eddi"],t.s)
 B.ov=new A.B(0.2,0.1450980392156863,0.19607843137254902,0.29411764705882354,B.e)
 B.F3=new A.bP(0,B.a1,B.ov,B.mh,14)
 B.NX=s([B.F3],t.V)
@@ -104250,20 +104237,20 @@ B.cc=new A.f7(9,"counter")
 B.d8=new A.f7(10,"container")
 B.O2=s([B.b2,B.bf,B.ao,B.bq,B.br,B.bs,B.aj,B.b7,B.cb,B.cc,B.d8],A.az("G<f7>"))
 B.Pr=new A.r_("en",null,"US")
-B.qM=s([B.Pr],t.ss)
-B.qN=s([0,41,61,101,131,181,251,301,360],t.n)
+B.qL=s([B.Pr],t.ss)
+B.qM=s([0,41,61,101,131,181,251,301,360],t.n)
 B.a67=new A.n_(0,0)
 B.a6c=new A.n_(1,0.05)
 B.a6a=new A.n_(3,0.08)
 B.a6b=new A.n_(6,0.11)
 B.a69=new A.n_(8,0.12)
 B.a68=new A.n_(12,0.14)
-B.qO=s([B.a67,B.a6c,B.a6a,B.a6b,B.a69,B.a68],A.az("G<n_>"))
+B.qN=s([B.a67,B.a6c,B.a6a,B.a6b,B.a69,B.a68],A.az("G<n_>"))
 B.Su=new A.h(0.47,0.82)
 B.Si=new A.h(0.35,0.57)
 B.SS=new A.h(0.58,0.32)
 B.O3=s([B.Su,B.Si,B.SS],t.yv)
-B.qP=s([0,21,51,121,151,191,271,321,360],t.n)
+B.qO=s([0,21,51,121,151,191,271,321,360],t.n)
 B.Ob=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.Ec=new A.ME(2,"outer")
 B.oH=new A.B(0.09803921568627451,0,0,0,B.e)
@@ -104324,8 +104311,21 @@ B.UG=new A.ap(0.63903989,0.07759639)
 B.Un=new A.ap(0.66416338,0.0734653)
 B.Uk=new A.ap(0.68675338,0.06974996)
 B.UA=new A.ap(0.70678034,0.06529512)
-B.qQ=s([B.UE,B.UD,B.Uq,B.Ut,B.UC,B.Uj,B.Uo,B.Ur,B.Um,B.Uz,B.UG,B.Un,B.Uk,B.UA],A.az("G<+(P,P)>"))
+B.qP=s([B.UE,B.UD,B.Uq,B.Ut,B.UC,B.Uj,B.Uo,B.Ur,B.Um,B.Uz,B.UG,B.Un,B.Uk,B.UA],A.az("G<+(P,P)>"))
 B.Oy=s([35,30,20,25,30,35,30,25,25],t.n)
+B.H_=new A.B(1,0.9098039215686274,0.8431372549019608,1,B.e)
+B.UL=new A.j0("M\xe8o",B.H_,"avatars/cat.webp","assets/images/avatars/cat.webp",null)
+B.I0=new A.B(1,1,0.9411764705882353,0.6823529411764706,B.e)
+B.UQ=new A.j0("Ch\xf3",B.I0,"avatars/dog.webp","assets/images/avatars/dog.webp",null)
+B.Hk=new A.B(1,0.8470588235294118,0.9450980392156862,1,B.e)
+B.UN=new A.j0("Voi",B.Hk,"avatars/elephant.webp","assets/images/avatars/elephant.webp",null)
+B.HM=new A.B(1,1,0.8666666666666667,0.9215686274509803,B.e)
+B.UP=new A.j0("Th\u1ecf",B.HM,"avatars/rabbit.webp","assets/images/avatars/rabbit.webp",null)
+B.H0=new A.B(1,0.8509803921568627,0.9686274509803922,0.9098039215686274,B.e)
+B.UM=new A.j0("G\u1ea5u",B.H0,"avatars/bear.webp","assets/images/avatars/bear.webp",null)
+B.Ic=new A.B(1,1,0.8431372549019608,0.6823529411764706,B.e)
+B.UO=new A.j0("C\xe1o",B.Ic,"avatars/fox.webp","assets/images/avatars/fox.webp",null)
+B.qQ=s([B.UL,B.UQ,B.UN,B.UP,B.UM,B.UO],t.yW)
 B.qR=s(["Bi\u1ebft quan s\xe1t v\xe0 \u0111\u1eb7t c\xe2u h\u1ecfi","T\u01b0 duy logic qua t\xecnh hu\u1ed1ng th\u1ef1c t\u1ebf","H\u1ecdc c\xe1ch th\u1eed sai v\xe0 s\u1eeda l\u1ed7i","T\u1ef1 tin n\xf3i chuy\u1ec7n v\u1edbi ng\u01b0\u1eddi kh\xe1c","Bi\u1ebft x\u1eed l\xfd khi b\u1ecb l\u1ea1c","Nh\u1eadn bi\u1ebft ng\u01b0\u1eddi l\u1ea1 nguy hi\u1ec3m","Nh\u1eadn bi\u1ebft t\xecnh hu\u1ed1ng kh\u1ea9n c\u1ea5p","H\u1ecdc qu\u1ea3n l\xfd th\u1eddi gian \u0111\u01a1n gi\u1ea3n"],t.s)
 B.OB=s(["click","scroll"],t.s)
 B.Ff=new A.uh()
